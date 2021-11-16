@@ -1,4 +1,4 @@
-import ChatPage from './app/ChatPage'
+import ChatPage from './app/Chat/ChatPage'
 import LoginPage from './app/LoginPage'
 import Router from './core/router'
 

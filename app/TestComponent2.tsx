@@ -6,8 +6,6 @@ interface TestComponent2Props {
 }
 
 export default class TestComponent2 extends Component<TestComponent2Props> {
-    props: TestComponent2Props
-
     counter: number = 0
 
     template () {

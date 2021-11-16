@@ -4,7 +4,6 @@ export default class Component<Props> {
 
     constructor (props: Props) {
         this.rootElement = document.createElement('div')
-        this.rootElement = this.template()
         this.props = props
     }
 
@@ -20,6 +19,6 @@ export default class Component<Props> {
 
     mountTo (parent: HTMLElement) {
         parent.innerHTML = ''
-        parent.appendChild(this.rootElement)
+        parent.appendChild(this.render())
     } 
 }
