@@ -2,7 +2,7 @@ import { Component } from "."
 
 export default function createElement(
     tag: string|Component<any>,
-    children: HTMLElement|HTMLElement[]|string = [],
+    children: HTMLElement|HTMLElement[]|string|null = [],
     attributes: { [code: string]: string } = {},
     listeners: { [code: string]: (e: Event) => void } = {}
 ) {
